@@ -13,7 +13,7 @@ import com.capgemini.hibernateonetooneexample.util.HibernateUtil;
 public class InstructorDao {
 	
 	//inserting the instructor
-	public void SaveInstructor(Instructor instructor) {
+	public void saveInstructor(Instructor instructor) {
 		Transaction transaction = null;
 		try {
 			Session session = HibernateUtil.getSessionFactory().openSession();

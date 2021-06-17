@@ -1,0 +1,6 @@
+package com.capgemini.hibernateonetooneexample.entity;
+
+@Entity
+public class Course {
+
+}

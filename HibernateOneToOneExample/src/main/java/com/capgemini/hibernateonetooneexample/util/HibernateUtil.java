@@ -8,8 +8,10 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
 
+import com.capgemini.hibernateonetooneexample.entity.Course;
 import com.capgemini.hibernateonetooneexample.entity.Instructor;
 import com.capgemini.hibernateonetooneexample.entity.InstructorDetail;
+import com.capgemini.hibernateonetooneexample.entity.Projects;
 
 /*
  * Java Configuration file that contains
@@ -52,7 +54,8 @@ public class HibernateUtil {
 				cfg.setProperties(dbsettings);
 				cfg.addAnnotatedClass(Instructor.class);
 				cfg.addAnnotatedClass(InstructorDetail.class);
-				
+				cfg.addAnnotatedClass(Course.class);
+				cfg.addAnnotatedClass(Projects.class);
 				/*
 				 * this contains contract that make up the hibernate
 				 * native bootstrapping API to register the application

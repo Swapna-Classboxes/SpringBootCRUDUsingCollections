@@ -1,0 +1,51 @@
+package com.capgemini.hibernateonetooneexample.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+
+@Entity
+public class Projects {
+	
+	
+	@Id
+	@SequenceGenerator(name = "ProjectsSeqGen",sequenceName = "ProjectsSeq",initialValue = 200,allocationSize = 100)
+	@GeneratedValue(generator = "ProjectsSeqGen")
+	private Integer id;
+	
+	@Column(name="projecttitle")
+	private String projectTitle;
+
+	public Projects() {
+		super();
+	}
+
+	public Projects(String projectTitle) {
+		super();
+		this.projectTitle = projectTitle;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getTitle() {
+		return projectTitle;
+	}
+
+	public void setTitle(String projectTitle) {
+		this.projectTitle = projectTitle;
+	}
+
+	@Override
+	public String toString() {
+		return "Projects [id=" + id + ", title=" + title + "]";
+	}
+
+}
