@@ -1,0 +1,40 @@
+package com.capgemini.hibernateonetooneexample.util;
+
+import java.util.Properties;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+/*
+ * Java Configuration file that contains
+ * information about the database
+ * instead of hibernate.cfg.xml file
+ */
+public class HibernateUtil {
+	
+	/* 
+	 * Session Factory is used to create Session Object
+	 * which is used to open the DB session through 
+	 * Hibernate Framework
+	 */
+	private static SessionFactory sessionFactory;
+	
+	public static SessionFactory getSessionFactory() {
+		
+		if(sessionFactory == null) {
+			try {
+				/*
+				 * An instance/object of Configuration allows
+				 * the application to specify db properties and mappings 
+				 * used when creating a session using SessionFactory
+				 */
+				Configuration cfg = new Configuration();
+				Properties dbsettings = new Properties();
+			}
+		}
+		
+		return sessionFactory;
+		
+	}
+
+}

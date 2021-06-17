@@ -1,0 +1,5 @@
+package com.capgemini.hibernateonetooneexample.daoimpl;
+
+public class InstructorDao {
+
+}

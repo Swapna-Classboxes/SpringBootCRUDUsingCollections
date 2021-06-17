@@ -1,0 +1,10 @@
+package com.capgemini.hibernateonetooneexample.util;
+
+/*
+ * Java Configuration file that contains
+ * information about the database
+ * instead of hibernate.cfg.xml file
+ */
+public class HibernateUtil {
+
+}

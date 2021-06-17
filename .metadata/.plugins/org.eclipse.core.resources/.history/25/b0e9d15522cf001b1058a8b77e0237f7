@@ -1,0 +1,16 @@
+package com.capgemini.hibernateonetooneexample.util;
+
+/*
+ * Java Configuration file that contains
+ * information about the database
+ * instead of hibernate.cfg.xml file
+ */
+public class HibernateUtil {
+	
+	/* 
+	 * Session Factory is used to create Session Object
+	 * which is used to open the DB session through 
+	 * Hibernate Framework
+	 */
+
+}

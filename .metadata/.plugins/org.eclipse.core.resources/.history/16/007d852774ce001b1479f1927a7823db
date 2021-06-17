@@ -1,0 +1,23 @@
+package com.capgemini.firsthibernateproject.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
+
+@Entity
+@Table(name = "Employee",
+uniqueConstraints = {@UniqueConstraint(columnNames = "ID"),
+					 @UniqueConstraint(columnNames = "EMAIL")}
+)
+public class Employee implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	
+
+}

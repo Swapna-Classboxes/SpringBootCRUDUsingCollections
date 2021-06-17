@@ -1,0 +1,23 @@
+package com.capgemini.hibernateonetooneexample.dao;
+
+import com.capgemini.hibernateonetooneexample.entity.Instructor;
+
+public class InstructorDao {
+	
+	public void SaveInstructor(Instructor instructor) {
+		
+	}
+	public void updateInstructor(Instructor instructor) {
+		
+	}
+	public void deleteInstructor(int id) {
+		
+	}
+	public void getInstructor(int id) {
+		
+	}
+	public void getAllInstructors() {
+		
+	}
+
+}

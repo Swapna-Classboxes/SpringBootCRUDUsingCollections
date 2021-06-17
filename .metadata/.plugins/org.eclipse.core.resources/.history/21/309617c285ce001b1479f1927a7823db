@@ -1,0 +1,15 @@
+package com.capgemini.firsthibernateproject;
+
+import com.capgemini.firsthibernateproject.entity.Employee;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Employee emp = 
+    }
+}

@@ -1,0 +1,8 @@
+package com.capgemini.hibernateonetooneexample.entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class InstructorDetail {
+
+}

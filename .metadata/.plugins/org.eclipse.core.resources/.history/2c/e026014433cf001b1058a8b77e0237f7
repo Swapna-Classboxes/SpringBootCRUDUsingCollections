@@ -1,0 +1,38 @@
+package com.capgemini.hibernateonetooneexample;
+
+import java.util.Scanner;
+
+import com.capgemini.hibernateonetooneexample.dao.InstructorDao;
+import com.capgemini.hibernateonetooneexample.entity.Instructor;
+import com.capgemini.hibernateonetooneexample.entity.InstructorDetail;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Instructor instructor = new Instructor("Rama","Krishna","ramki@gmail.com");
+        InstructorDetail instructorDetail = new InstructorDetail("www.youtube.com/ram","Piano");
+        instructor.setInstructorDetail(instructorDetail);
+        InstructorDao instructorDao = new InstructorDao();
+        instructorDao.SaveInstructor(instructor);
+        
+        
+        Scanner sc = new Scanner(System.in);
+        char ch = 'y';
+        while(ch == 'y') {
+        System.out.println("Enter the transaction");
+        System.out.println("insert : insert data");
+        System.out.println("update : update data");
+        System.out.println("delete : delete data");
+        System.out.println("get : get a instructor by id");
+        System.out.println("getall : get all instructor data");
+        String choice = sc.next();
+        
+        switch(choice) {
+        
+        }
+        
+        }
+    
+    }
+}

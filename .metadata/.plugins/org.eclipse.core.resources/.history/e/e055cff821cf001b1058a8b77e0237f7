@@ -1,0 +1,10 @@
+package com.capgemini.hibernateonetooneexample.util;
+
+/*
+ * Java COnfiguration file that contains
+ * information about the database
+ * and mapping file
+ */
+public class HibernateUtil {
+
+}

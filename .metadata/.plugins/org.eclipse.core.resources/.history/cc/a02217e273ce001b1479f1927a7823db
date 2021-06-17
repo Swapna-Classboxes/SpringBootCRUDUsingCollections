@@ -1,0 +1,5 @@
+package com.capgemini.firsthibernateproject.entity;
+
+public class Employee {
+
+}

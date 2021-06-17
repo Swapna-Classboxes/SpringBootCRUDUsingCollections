@@ -1,0 +1,38 @@
+package com.capgemini.hibernateonetooneexample.daoimpl;
+
+import com.capgemini.hibernateonetooneexample.dao.InstructorDao;
+import com.capgemini.hibernateonetooneexample.entity.Instructor;
+
+public class InstructorDaoImpl implements InstructorDao {
+
+	@Override
+	public void SaveInstructor(Instructor instructor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateInstructor(Instructor instructor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteInstructor(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getInstructor(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getAllInstructors() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

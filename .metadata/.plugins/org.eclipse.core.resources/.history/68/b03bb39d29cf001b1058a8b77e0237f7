@@ -1,0 +1,11 @@
+package com.capgemini.hibernateonetooneexample;
+
+import com.capgemini.hibernateonetooneexample.entity.Instructor;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Instructor instructor = new Instructor("Rama","Krishna","ramki@gmail.com");
+    }
+}

@@ -1,0 +1,5 @@
+package com.capgemini.firsthibernateproject.util;
+
+public class HibernateUtil {
+
+}
