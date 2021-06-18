@@ -25,12 +25,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.capgemini.hibernateonetooneexample"/>
 			<item value="com.capgemini.sampleproject"/>
 		</list>
 		<list key="groupId">
 			<item value="com.capgemini"/>
 		</list>
 		<list key="artifactId">
+			<item value="HibernateOneToOneExample"/>
 			<item value="sampleproject"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -63,5 +65,9 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
