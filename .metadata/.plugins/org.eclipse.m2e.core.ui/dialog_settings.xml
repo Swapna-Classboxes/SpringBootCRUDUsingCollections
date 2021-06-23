@@ -25,15 +25,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.capgemini.hibernateonetooneexample"/>
-			<item value="com.capgemini.sampleproject"/>
+			<item value="com.capgemini.springiocexampleusingxml"/>
 		</list>
 		<list key="groupId">
 			<item value="com.capgemini"/>
 		</list>
 		<list key="artifactId">
-			<item value="HibernateOneToOneExample"/>
-			<item value="sampleproject"/>
+			<item value="springiocexampleusingxml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

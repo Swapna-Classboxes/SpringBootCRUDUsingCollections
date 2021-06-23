@@ -1,5 +1,0 @@
-package com.capgemini.hibernateonetooneexample.util;
-
-public class HibernateUtil {
-
-}
